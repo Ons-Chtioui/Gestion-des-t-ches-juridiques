@@ -1,0 +1,88 @@
+
+.login {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+   gap:30px
+    
+}
+
+.login img {
+    width: 70px;
+    height: 25px;
+    align-self: flex-end; /* Place l'image à droite */
+}
+.demi-ecran img{
+    width: 250px;
+    height: 250px;
+}
+#conlogin{
+    margin-top: 20px;
+}
+/* .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  height: 90vh;
+  width: 800px;
+} */
+/* .demi-ecran{
+    background: #1B2A40;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.demi-ecran h2{
+    color: #ffffff;
+}
+
+.login h2{
+    text-align: center;
+    color: #C7794B;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+   width: 350px;
+}
+.inputsl input{
+    width: 250px;
+    height: 25px;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    margin-left: 15PX;
+    border: solid 2px #1B2A40;
+    background-color: #D9D9D9;
+    color: #051427;
+}
+
+.login button {
+    color: #D9D9D9;
+    background-color: #1B2A40;
+    width:80%;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 15px;
+}
+.inputsl{
+    display: flex;
+    flex-direction: column;
+}
+/* .con{
+    margin-top: 50px;  
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+} */
+#label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }

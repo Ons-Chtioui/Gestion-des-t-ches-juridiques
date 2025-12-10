@@ -1,0 +1,39 @@
+.fichier{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+.fichier h4{
+    text-align:start;
+    color: #C7794B;
+}
+table.table-bordered{
+    text-align: center;
+   width: 80%;
+   
+}
+.formfichier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px
+}
+
+.fichier h3{
+    text-align:start;
+    color: #1B2A40;
+}
+.cont{
+    margin-top: 25px;
+    margin-left: 15px;
+    
+}
+.cont h4{
+    margin-bottom: 15px;
+}
+pre{
+   
+    text-align: start;
+}

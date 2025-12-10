@@ -1,0 +1,59 @@
+.sidebar {
+  background-color: #dee5f2;
+ 
+    padding: 20px;
+    border-right: 1px solid #dee2e6;
+    width: 250px;
+    height:200vh;
+   
+    position:fixed;
+  }
+  
+  .nav-link {
+    color: #343a40;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+  }
+  
+  .dropdown-menu {
+    background-color: #f8f9fa;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-item {
+    color: #343a40;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  .sidebar #sid-image img {
+    width: 60%; 
+    height: 10%;/* Ajustement de la largeur de l'image */
+    margin-top: -10px;
+    
+    padding-bottom: 10px; /* Ajoute un peu d'espace en bas de l'image */
+  }
+  ul{
+    display: flex;
+    gap: 13px;
+  }
+  li{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    margin-bottom: 15px;
+}
+.sidebar a {
+    color: black;
+    
+  }
+  .sidebar a:hover {
+    color: #2d5083;
+
+    box-shadow: -6px 10px 10px #2d5083; /* Modifiez les valeurs selon vos besoins */
+      
+  }

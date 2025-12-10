@@ -1,0 +1,23 @@
+.btn.btn-info {
+    background-color: #2c405d;
+    color: white;
+    border-radius: 15px;
+}
+.btn.btn-primary{
+    margin-top: 5px;
+   background-color:#C7794B ;
+   border: #f9bd9a 1px solid;
+   color: #ffff
+}
+.table.table-striped.table-bordered td {
+    text-align: center;
+}
+.inline-flex.rounded-full.bg-opacity-10.py-1.px-3.text-sm.font-medium {
+    border-radius: 50px /* Couleur de la bordure et épaisseur */;
+ 
+    
+}
+.table.table-striped.table-bordered{
+    width: 98%;
+    margin: 15px;
+}

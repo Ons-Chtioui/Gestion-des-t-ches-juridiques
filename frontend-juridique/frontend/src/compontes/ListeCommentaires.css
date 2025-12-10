@@ -1,0 +1,107 @@
+.comment-list {
+    display: flex;
+    flex-direction: column;
+    
+    width: 90%;
+  }
+  
+  .comment {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .comment-date {
+    flex: 1;
+    font-weight: bold;
+  }
+  
+  .comment-content {
+    flex: 3;
+    margin-left: 10px;
+  }
+  textarea{
+    width: 140%;
+  }
+  .list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.list h3{
+  color: #1B2A40;
+}
+  .comment-list{
+    border:#125abe 2px solid;
+    border-radius: 5px;
+    /* background-color:rgb(254, 243, 243) ; */
+ 
+    margin: 25px;
+    padding: 50px;
+    box-shadow: 4px 6px 6px 6px rgba(11, 3, 75, 0.1); /* Modifiez les valeurs selon vos besoins */
+      
+   
+  }
+  
+  #ligne{
+    width: 100%;
+    height:1px;
+    margin-top: 15px;
+    background-color: rgb(233, 227, 227);
+  }
+  .comment{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .content{
+    display: flex;
+    gap:50px;
+  }
+  .ajouterComm{
+  
+ color: white;
+ 
+    background-color:#1B2A40;
+    width:45%;
+    height: 35px;
+    border-radius: 30px;
+    text-align: center;
+    
+  }
+  .ajouterComm:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+  }
+.commentaire{
+  display: flex;
+  flex-direction: column;
+ 
+  gap:10px
+}
+.commentaire h4{
+  text-align:start;
+  color: #C7794B;
+}
+.formComm{
+margin-right: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap:20px
+}
+.comment-date strong{
+  color: #C7794B; 
+}
+.comment-date{
+  color: #1B2A40;
+  width: 250px;
+}
+.CommentaireInterface{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:50px
+}

@@ -1,0 +1,139 @@
+.calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.month-year-selector {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.month-year-selector button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.weekdays {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.weekdays div {
+  width: calc(100% / 7); /* Distribue équitablement l'espace pour chaque jour */
+  text-align: center;
+  font-weight: bold;
+}
+
+.week {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.day {
+  width: calc(100% / 7); /* Distribue équitablement l'espace pour chaque jour */
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.day.selected {
+  background-color:  #dee5f2;
+  color: white;
+}
+
+.day.highlighted {
+  background-color: #C7794B;
+}
+
+.date {
+  font-weight: bold;
+  color: #1B2A40;
+}
+
+
+.agenda h1{
+ 
+  text-align: center;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ width: 40%;
+ gap:15px
+
+}
+#agenda{
+  width: 100%;
+  box-shadow: 6px 6px 6px rgba(18, 18, 19, 0.1); /* Modifiez les valeurs selon vos besoins */
+      
+}
+.form h4{
+  color: #1B2A40;
+}
+.form input{
+  width: 90%;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  color: #495057;
+  font-size: 16px;
+}
+.form button{
+  background-color: #1B2A40;
+  color: white;
+  height: 35px;
+  width: 90px;
+  border-radius: 5px;
+}
+.evenement{
+  display: flex;
+  gap:25px;
+  margin-left: 40px;
+  
+}
+#selecteur{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.title {
+  color: #1B2A40;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+.event-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:15px
+}
+.agenda{
+  display: flex;
+   flex-direction: column;
+   gap:45px;
+   margin-top: 15px;
+}
+.event-list h2{
+  align-self: flex-start;
+  margin-left: 15px;
+  color: #C7794B;
+}
+.email-container {
+  font-family:Georgia, 'Times New Roman', Times, serif
+}

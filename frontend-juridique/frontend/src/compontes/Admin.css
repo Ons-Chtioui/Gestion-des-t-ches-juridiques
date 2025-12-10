@@ -1,0 +1,106 @@
+
+.legal button{
+    background:  #3c290040; 
+    width: 250px;
+    height: 50px;
+    border: none;
+    color: #3C2900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    border-radius: 25px;
+    text-align: center;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+#card{
+    display: flex;
+    gap:30px;
+}
+ .legal{
+   
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+}
+
+.equipe-legal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 40vh;
+}
+.creation-compte button{
+    width: 170px;
+    height: 50px;
+ 
+}
+.creation-compte{
+    display: flex;
+    justify-content: end;
+}
+table button{
+    width: 150px;
+    margin-right: 15px;
+}
+table {
+text-align: center;
+}
+#table{
+    margin-left: 10px;
+}
+#card {
+   
+  margin-left: 90px;
+    flex-wrap: wrap;
+   margin-top:20px ;
+  }
+
+  @media screen and (min-width: 768px) {
+    #card > .CardDataStats {
+      width: calc(33.33% - 20px); /* Calculer la largeur pour trois div par ligne */
+     
+     } 
+     
+  }
+  
+  @media screen and (min-width: 992px) {
+    #card > .CardDataStats {
+      width: calc(33.33% - 20px); /* Calculer la largeur pour trois div par ligne */
+    }
+    
+  }
+  @media screen and (max-width: 768px) {
+    #card {
+
+        margin-left: 20px;
+    }
+
+    
+  }
+  .btn.btn-danger{
+    background-color: rgb(210, 30, 7);
+    border-radius: 15px;
+    width:auto;
+  }
+  .btn.btn-info{
+    width: auto;
+    border:1px solid #1B2A40; 
+  }
+  .btn.btn-info:hover{
+    background-color:#14243c ;
+    color: white;
+    border:1px solid #1B2A40;
+  }
+  .home{
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+    background-color: rgb(253, 250, 250);
+   
+  }

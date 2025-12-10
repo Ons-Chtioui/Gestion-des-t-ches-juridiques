@@ -1,0 +1,112 @@
+
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #1B2A40;
+  }
+  
+  .btn-primary {
+    width: 100%; /* Le bouton prendra la largeur de son conteneur */
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .inputs input[type="text"],
+.inputs input[type="number"],
+.inputs input[type="date"],
+
+.inputs textarea {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+ 
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  color: #495057;
+  font-size: 16px;
+  
+}
+
+.inputs textarea {
+  height: 120px;
+}
+
+.inputs input[type="number"] {
+    appearance: none;
+   
+  }
+  
+
+  
+  .inputs .custom-select {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc; /* Changement de la couleur de la bordure */
+    border-radius: 5px; /* Augmentation du rayon de la bordure */
+    background-color: #f8f9fa; /* Changement de la couleur de fond */
+    color: #495057; /* Changement de la couleur du texte */
+    font-size: 16px;
+  }
+  
+ .inputs .custom-select:focus {
+    outline: none; /* Supprime la bordure de mise au point */
+    border-color: #007bff; /* Changement de la couleur de la bordure lorsqu'il est en focus */
+  }
+  
+  
+ .inputs .custom-select:hover {
+    background-color: #e9e9e9; /* Changement de la couleur de fond au survol */
+  }
+  
+
+  
+  .inputs .custom-select option {
+    padding: 10px; /* Ajout de marge intérieure aux options */
+  }
+  
+
+  .card {
+    margin-top: 100px;
+    width: 80%; /* Augmentez la largeur maximale de la carte */
+    height: 100%; /* Hauteur de la carte */
+    margin: 0 auto;
+ /* Couleur de fond de la carte */
+    padding: 40px; /* Remplissage de la carte */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    background-color: #007bff;
+   
+ 
+  }
+
+  @media (min-width: 600px) {
+    .card {
+       width: 80%;
+    }
+  }
+  @media (min-width: 1200px) {
+    .card {
+       width: 40%;
+    }
+  }
+  
+  .inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .inputs > * {
+    flex: 1 1 50%; /* Chaque élément prendra la moitié de l'espace disponible */
+    margin-bottom: 20px; /* Ajoute un espace en bas de chaque élément */
+  }
+  
+  

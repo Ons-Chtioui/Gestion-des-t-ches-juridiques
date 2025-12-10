@@ -1,0 +1,41 @@
+.profile{
+ width: 100%;
+ /* height:50px;
+ background-color: #dee5f2; */
+ padding-left: 10px;
+ background-color: rgb(253, 250, 250);
+display: flex;
+justify-content:end;
+padding-top: 7px;
+padding-right: 15px;
+
+}
+button{
+background-color: rgb(253, 250, 250);
+ border: none;
+ color: black;
+/* background-color: #dee5f2; */
+
+
+}
+.logout{
+display: flex;
+gap:5px;
+justify-content: center;
+
+
+}
+.text{
+    padding-top: 7px;
+    color: #7e93b3;
+}
+.header{
+    display: flex;
+  
+}
+.header img{
+    width: 100px;
+    margin-left: 15px;
+  
+    
+}

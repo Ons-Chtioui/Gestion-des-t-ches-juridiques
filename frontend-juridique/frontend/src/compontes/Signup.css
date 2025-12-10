@@ -1,0 +1,158 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    /* Aligner le contenu en haut de la colonne */
+    /* Modifiez les valeurs selon vos besoins */
+    
+   width: 100%;
+   height: 100%; ;
+
+}
+
+.con {
+    display: grid;
+   /* Centrer verticalement */
+   justify-content: center;
+   align-items: start;
+       width: 100%;
+    height: 100%;
+   
+  
+  
+}
+
+.demi-ecran h2{
+    color: #ffffff;
+}
+
+
+.demi-ecran {
+  
+    background: #1B2A40;
+    width: 60%; /* Utiliser 30% de la largeur de l'écran */
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Ajouter un peu de padding pour l'espace autour du contenu */
+}
+
+.demi-ecran img {
+    float: right; /* Déplacer l'image vers la droite */
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+
+.signup {
+    
+    display: flex;
+    flex-direction: column;
+   
+  height: 100%;
+   padding: 25px;
+   justify-content: center;
+   align-items: center;
+  margin-right: 150px;
+   /* Ajouter du padding pour l'espace autour du contenu */
+    /* Ajouter une marge à gauche pour l'espace entre les deux colonnes */
+    width: 100%; /* Utiliser 70% de la largeur de l'écran */
+   gap:15px
+}
+
+.signup h2 {
+    text-align: center;
+    color: #C7794B;
+    margin-left: 25px;
+}
+
+.signup form {
+    
+    display: flex;
+    flex-direction: column;
+    gap:10px;  display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+   width: 350px;
+    
+}
+
+.signup button {
+    width: 80%; /* Ajuster la largeur des champs et du bouton pour remplir le formulaire */
+    color: #ffff;
+    background-color: #1B2A40;
+    margin-left: 13px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    
+    text-align: center;
+}
+.inputsl select{
+    margin-left: 13px;
+    color:  #C7794B;
+}
+.inputsl select #option{
+   
+    color:  #C7794B;
+}
+.inputsl input,
+.inputsl select {
+    width: 80%;
+    height: 40px; /* Ajustez la hauteur selon vos préférences */
+    margin-bottom: 15px;
+    border-radius: 10px; /* Ajoutez une bordure arrondie */
+    border: 2px solid #d9dbdd; /* Couleur de la bordure */
+    background-color: #eae9e9;
+    color: #051427; /* Couleur du texte */
+    padding: 0 15px; /* Ajoutez un espace à gauche et à droite du texte à l'intérieur de l'élément */
+    box-sizing: border-box; /* Assurez-vous que la largeur inclut la bordure et le padding */
+    font-size: 16px; /* Taille de la police */
+}
+
+.inputsl select {
+    appearance: none; /* Supprimez l'apparence par défaut du sélecteur */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23051227" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>'); /* Ajoutez une icône personnalisée pour le sélecteur */
+    background-position: right 10px center; /* Positionnez l'icône à droite */
+    background-repeat: no-repeat; /* Ne pas répéter l'arrière-plan */
+    background-size: 24px; /* Taille de l'icône */
+    padding-right: 40px; /* Ajoutez un espace à droite pour l'icône */
+}
+
+.inputsl input:focus,
+
+.inputsl select:focus {
+    outline: none; /* Supprimez la bordure de focus */
+    border-color: #375997; /* Couleur de la bordure lorsque l'élément est en focus */
+}
+
+/* Style pour les messages d'erreur */
+.alert {
+    display: none; /* Caché par défaut */
+    color: #dc3545; /* Couleur du texte */
+    font-size: 14px; /* Taille de la police */
+    margin-top: 5px; /* Marge en haut */
+}
+
+@media (max-width: 768px) {
+  
+    .signup {
+     
+        height: 100%;
+        margin-left: 0; /* Supprimer la marge à gauche pour empêcher le chevauchement sur les petits écrans */
+        margin-top: 15px; /* Ajouter une marge en haut pour l'espace entre les deux sections */
+        width: 70%; /* Utiliser 100% de la largeur sur les petits écrans */
+        margin-right: 50px;
+    padding:1px;
+    }
+    
+
+.con{
+ padding: 0;
+ margin-left:5;
+  
+ 
+}
+}
